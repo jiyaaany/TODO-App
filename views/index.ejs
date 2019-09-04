@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<link rel="stylesheet" href="/stylesheets/style.css" />
+		<link rel="stylesheet" href="/bootstrap.min.css" />
+	</head>
+	<body>
+		<h1><%= title %></h1>
+		<p>Welcome to <%= title %></p>
+		<form class="form-inline">	<!-- 새로운 ToDo 항목 추가 -->
+			<div class="form-group">
+				<input type="text" class="form-control" id="new_todo" placeholder="새로운 할 일">
+			</div>
+			<button type="button" class="btn btn-primary">추가</button>
+		</form>
+		<table class="table">	<!-- ToDo 목록 -->
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>내용</th>
+					<th>완료</th>
+					<th>삭제</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</body>
+	<script src="/jquery-3.1.0.min.js"></script>
+	<script src="/bootstrap.min.js"></script>
+	<script src="/javascripts/todo.js"></script>	<!-- ToDo 기능 구현 내용 -->
+</html>

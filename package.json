@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-todo-list",
+  "version": "0.0.2",
+  "description": "Simple to-do Node.js web application using Express and jQuery.",
+  "keywords": [
+    "Node.js",
+    "ToDo",
+    "Express",
+    "jQuery",
+    "Bootstrap"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jayde-Im/nodejs-todo-list/issues",
+    "email": "jeongmin.im@goorm.io"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jayde-Im",
+    "email": "jeongmin.im@goorm.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jayde-Im/nodejs-todo-list.git"
+  },
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "ejs": "*",
+    "express": "3.0.1",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0",
+    "stylus": "*"
+  }
+}
